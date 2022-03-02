@@ -2,11 +2,9 @@
 layout: post
 ---
 
-# re-creating the x2go session database
+A couple of us at Kratos were running into an issues where our x2go sessions were not suspending correctly.
 
-A couple of us at Kratos were running into an issues where our x2go sessions
-were not suspending correctly. After looking into the x2gosuspend-session
-script, I found that this command is failing:
+After looking into the x2gosuspend-session script, I found that this command is failing:
 
 ```
 /usr/lib64/x2go/x2gogetagent $X2GO_SESSION
